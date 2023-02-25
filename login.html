@@ -1,0 +1,86 @@
+
+    <meta charset="UTF-8">
+    <title>LOGIN</title>
+    <style>
+      
+      body {
+        background-color: #f1f1f1;
+        font-family: Arial, sans-serif;
+      }
+      .login {
+        width: 400px;
+        margin: 0 auto;
+        background-color: #fff;
+        border-radius: 5px;
+        padding: 20px;
+        box-shadow: 0px 0px 10px #ccc;
+        margin-top: 50px;
+      }
+      h2 {
+        text-align: center;
+        color: #666;
+      }
+      input[type="text"],
+      input[type="password"] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 100%;
+      }
+      button:hover {
+        background-color: #45a049;
+      }
+      .container {
+        padding: 16px;
+      }
+      span.psw {
+        float: right;
+        padding-top: 16px;
+      }
+      @media screen and (max-width: 600px) {
+        .login {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="login">
+      <h2>Tela de Login</h2>
+      <form action="" method="post">
+        <div class="container">
+          <label for="usuario"><b>Usuário</b></label>
+          <input type="text" placeholder="Digite o usuário" name="usuario" required>
+
+          <label for="senha"><b>Senha</b></label>
+          <input type="password" placeholder="Digite a senha" name="senha" required>
+
+          <button type="submit">Entrar</button>
+          <label>
+            <input type="checkbox" checked="checked" name="lembrar"> Lembrar-me
+          </label>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" class="cancelbtn">Cancelar</button>
+          <span class="psw">Esqueceu a <a href="#">senha?</a></span>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
+
+</body>
+</html>
